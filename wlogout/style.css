@@ -11,6 +11,7 @@ window {
     background-color: rgba(30, 30, 46, 0.6);
 }
 
+
 button {
     background-repeat: no-repeat;
     background-position: center;
@@ -18,12 +19,14 @@ button {
     background-color: rgba(200, 220, 255, 0);
     animation: gradient_f 20s ease-in infinite;
     border-radius: 80px; /* Increased border radius for a more rounded look */
-    margin: 0px 1rem;
+    margin: 10px;
 }
+
 
 button:focus {
     background-size: 25%;
-    border: 0px;
+	border: 0px;
+
 }
 
 button:hover {
