@@ -8,9 +8,8 @@
   },
   "modules": [
     {
-      "type": "title",
-      "key": "╭────────────  Hardware  ───────────────╮",
-      "format": "{2}"
+      "type": "custom",
+      "key": "╭────────────  Hardware  ───────────────╮"
     },
     {
       "type": "cpu",
