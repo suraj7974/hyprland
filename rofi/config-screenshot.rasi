@@ -52,9 +52,9 @@ configuration {
 
 // Main //
 window {
-    width:                        30em;
+    width:                        25em;
     x-offset:                     0em;
-    y-offset:                     2em;
+    y-offset:                     0em;
     spacing:                      0em;
     padding:                      0em;
     margin:                       0em; 
@@ -63,8 +63,8 @@ window {
     border-color:                 @color11;
     cursor:                       "default";
     transparency:                 "real";
-    location:                     north;
-    anchor:                       north;
+    location:                     center;
+    anchor:                       center;
     fullscreen:                   false;
     enabled:                      true;
     border-radius:                @border-radius;
@@ -78,7 +78,7 @@ mainbox {
     orientation:                 horizontal;
     children:                    [ "listbox" ];
     background-color:            transparent;
-    background-image:            @current-image;
+    background-image:            url("~/.config/ml4w/cache/blurred_wallpaper.png", width);
 }
 
 /* ---- Imagebox ---- */
@@ -127,7 +127,7 @@ listbox {
     padding:                     0em;
     spacing:                     0em;
     orientation:                 vertical;
-    children:                    [ "inputbar", "listview" , "message" ];
+    children:                    [ "listview" ];
     background-color:            @background;
 }
 

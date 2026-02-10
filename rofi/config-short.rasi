@@ -52,19 +52,19 @@ configuration {
 
 // Main //
 window {
-    width:                        30em;
-    x-offset:                     0em;
+    width:                        20em;
+    x-offset:                     -2em;
     y-offset:                     2em;
-    spacing:                      0em;
-    padding:                      0em;
-    margin:                       0em; 
-    color:                      #FFFFFF;
+    spacing:                      0px;
+    padding:                      0px;
+    margin:                       0px; 
+    color:                        #FFFFFF;
     border:                       @border-width;
     border-color:                 @color11;
     cursor:                       "default";
     transparency:                 "real";
-    location:                     north;
-    anchor:                       north;
+    location:                     northeast;
+    anchor:                       northeast;
     fullscreen:                   false;
     enabled:                      true;
     border-radius:                @border-radius;
@@ -78,7 +78,7 @@ mainbox {
     orientation:                 horizontal;
     children:                    [ "listbox" ];
     background-color:            transparent;
-    background-image:            @current-image;
+    background-image:            url("~/.config/ml4w/cache/blurred_wallpaper.png", width);
 }
 
 /* ---- Imagebox ---- */
@@ -127,7 +127,7 @@ listbox {
     padding:                     0em;
     spacing:                     0em;
     orientation:                 vertical;
-    children:                    [ "inputbar", "listview" , "message" ];
+    children:                    [ "listview" , "message" ];
     background-color:            @background;
 }
 
@@ -137,7 +137,7 @@ listview {
     margin:                      0em;
     enabled:                     true;
     columns:                     1;
-    lines:                       8;
+    lines:                       2;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;

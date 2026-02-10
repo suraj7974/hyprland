@@ -53,18 +53,18 @@ configuration {
 // Main //
 window {
     width:                        30em;
-    x-offset:                     0em;
+    x-offset:                     -2em;
     y-offset:                     2em;
-    spacing:                      0em;
-    padding:                      0em;
-    margin:                       0em; 
+    spacing:                      0px;
+    padding:                      0px;
+    margin:                       0px; 
     color:                      #FFFFFF;
     border:                       @border-width;
     border-color:                 @color11;
     cursor:                       "default";
     transparency:                 "real";
-    location:                     north;
-    anchor:                       north;
+    location:                     northeast;
+    anchor:                       northeast;
     fullscreen:                   false;
     enabled:                      true;
     border-radius:                @border-radius;

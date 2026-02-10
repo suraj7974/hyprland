@@ -52,12 +52,12 @@ configuration {
 
 // Main //
 window {
-    width:                        30em;
+    width:                        25em;
     x-offset:                     0em;
     y-offset:                     2em;
     spacing:                      0em;
     padding:                      0em;
-    margin:                       0em; 
+    margin:                       0px; 
     color:                      #FFFFFF;
     border:                       @border-width;
     border-color:                 @color11;
@@ -138,8 +138,8 @@ listview {
     enabled:                     true;
     columns:                     1;
     lines:                       8;
-    cycle:                       true;
-    dynamic:                     true;
+    cycle:                       false;
+    dynamic:                     false;
     scrollbar:                   false;
     layout:                      vertical;
     reverse:                     false;
@@ -173,11 +173,12 @@ button selected {
     text-color:                  @background;
 }
 
+
 // Elements //
 element {
     enabled:                     true;
-    padding:                     1em;
-    margin:                      0em;
+    padding:                     0.8em;
+    margin:                      0.6em;
     cursor:                      pointer;
     background-color:            transparent;
     text-color:                  @foreground;
@@ -231,11 +232,10 @@ element alternate.active {
 }
 
 element-icon {
-    size:                        0em;
+    size:                        7.2em;
     cursor:                      inherit;
     background-color:            transparent;
     text-color:                  inherit;
-    content:                     "";
 }
 
 element-text {

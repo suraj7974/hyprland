@@ -1,4 +1,3 @@
-#!/bin/bash
 
 ASSETS_DIR="$HOME/.config/fastfetch/assets"
 CONFIG_TEMPLATE="$HOME/.config/fastfetch/config-template.json"
